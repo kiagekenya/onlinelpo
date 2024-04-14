@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700");
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:'kumbh sans',sans-serif;
+    
+}
+
+
+.all-container {
+  background-image: url("../../assets/landing.jpg");
+  background-size: contain; 
+  background-repeat: no-repeat;
+  min-height: 100vh; /* Set a minimum height to cover the entire viewport */
+}
+
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 120px;
+    background-color: rgba(255, 255, 255, 0);
+  
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 40px; 
+    
+  }
+  
+  .navbar-links ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar-links li {
+    margin-right: 60px; 
+  }
+  
+
+  .navbar-links a {
+    text-decoration: none;
+    color: black; 
+    font-weight: bold; 
+    font-size: 18px;
+  }
+  
+
+  .section {
+    position: relative;
+  }
+  
+  .sectionp {
+    position: fixed;
+    top: 40vh; 
+    left: 55vw;
+    
+  }
+  
+  .sectionp p{
+    font-size: 30px;
+  }
+  
+  .sectionp h1{
+    font-size: 60px;
+  }
+  
+
+
+  .main__container {
+    position: relative;
+  }
+  
+  .order {
+    position: fixed;
+    top: 70vh; 
+    left: 70vw;
+    transform: translate(-50%, -50%);
+    text-decoration: none;
+    background-color: #94d500;
+    
+    color: black;
+    font-size: 18px;
+    padding: 0.8em 1.2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s;
+    
+  }
+  
+  .order:hover {
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+  }
+  
+
+
+  @media only screen and (max-width: 600px) {
+    header {
+      padding: 10px;
+    }
+  
+    .navbar-links li {
+      margin-right: 10px;
+    }
+  
+    .sectionp {
+      padding: 20px;
+      
+    top: 40vh; 
+    left: 1vw;
+      text-align: left; 
+    }
+  
+    .sectionp p {
+      font-size: 16px;
+    }
+  
+    .sectionp h1 {
+      font-size: 28px;
+    }
+  
+    .order {
+      font-size: 12px;
+      padding: 8px 16px;
+      top: 60vh; 
+      left: 50vw;
+      text-align: center;
+    }
+  }
+ 
+  

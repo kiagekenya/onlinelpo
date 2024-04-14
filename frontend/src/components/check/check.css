@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700");
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:'kumbh sans',sans-serif;
+    
+}
+
+ 
+
+
+
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  nav {
+    position: fixed;
+    background-color: white;
+    color: black;
+    padding: 10px 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+  }
+  
+  .navbar1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1200px;
+  }
+  
+  .nav-logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-logo img {
+    width: 70px;
+    margin-right: 10px;
+  }
+  
+  .maintop {
+    display: flex;
+    flex-direction: column;
+    margin: 130px;
+   
+    background-color: #f4f4f4;
+    text-align: center;
+  }
+  
+  .top {
+    margin-bottom: 20px;
+  }
+  
+  .name {
+    margin-bottom: 10px;
+  }
+  
+  .date {
+    margin-bottom: 30px;
+    margin-left: auto;
+  }
+  
+  .name {
+    margin-bottom: 10px; /* Add margin-bottom for spacing */
+  }
+
+  .lower,
+.lower2 {
+  margin-right: auto; /* Push these elements to the right */
+  margin-bottom: 10px; /* Add margin-bottom for spacing */
+}
+
+  .address {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+    color: black;
+  }
+  
+  .collection {
+    margin-right: auto;
+    margin-bottom: 5px;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+  }
+
+.region-selection{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px;
+  color: black;
+}
+.category {
+  color: red; /* Change the color to your desired color */
+  font-weight: bold; /* Optionally, make the text bold */
+}
+
+  
+  .table-section {
+    margin-top: 5px;
+    margin-left: 130px; /* Set margin to create space from the left margin */
+    margin-right: 130px; /* Set margin to create space from the right margin */
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #333;
+    color: white;
+  }
+  
+   .btn {
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #555;
+    color: white;
+  }
+
+
+  .lpobutton{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 30px;
+  }
+
+  .btnend{
+    margin-right: 60px;
+    background-color: #94d500;
+    color: black;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 50px;
+  }
+
+  form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-top: 30px;
+  }
+
+  .fileupload{
+    margin-bottom: 10px;
+  }
